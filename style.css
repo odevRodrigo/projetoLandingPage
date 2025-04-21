@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    font-family: 'inter';  
+}
+
+#logo {
+    margin-top: 52px;
+    margin-left: 56px;
+}
+
+#menuSuperior { 
+    color: #FFFFFF;
+}
+
+
+
+#h1Logo {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 40px;
+    margin-left: 172px;
+    margin-top: 71px;
+}
+
+#pLogo {
+    margin-left: 172px;
+    margin-top: 32px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#menuSuperior {
+
+    background-image: url(./imagens/backgroundTopo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+#menuInformacional {
+    background-color:  #EAECE5;
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.infoImg {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+#secaoVideo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    margin-top: 80px; 
+    margin-bottom: 80px;  
+}
+
+#textoVideo h1 {
+    display: flex;
+    color: #247BA0;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 32px;
+}
+
+#textoVideo p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16.5px;
+    color: #383838;
+}
+
+#cardText {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #EAECE5;
+    padding-top: 60px;
+}
+
+#carrossel {
+    background-color: #247BA0;
+    height: 380px;
+}
+
+#carrosselImg {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 172px;
+}
+
+
+#setaDireita {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#setaDireita:hover {
+    transform: translateY(-10px);
+}
+
+#setaEsquerda {
+    cursor: pointer;
+    display: none;
+    transition: transform 0.3s ease;
+}
+
+#setaEsquerda:hover {
+    transform: translateY(-10px);
+}
+
+
+#samantha{
+    display: none;
+}
+
+#formh1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 22px;
+    color: #383838;
+    margin-bottom: 15px;
+}
+
+#formulario {
+    text-align: center;
+}
+
+.form1 {
+    width: 413px;
+    height: 53px;
+    margin-top: 45px;
+    
+    border-radius: 10px;
+    border-style: none;
+    background-color: #EAECE5;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+#formh1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#button {
+    margin-top: 40px;
+    margin-bottom: 109px;
+    width: 335px;
+    height: 53px;
+    background-color: #247BA0;
+    border: 0px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 15px 20px #23363f;
+    
+}
+
+#button:hover {
+    transform: translateY(-10px);
+}
+
+
